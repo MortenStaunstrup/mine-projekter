@@ -1,0 +1,91 @@
+
+/* Alt har farven og fonttypen til at begynde med (h1, p h2 ... osv) */
+*{
+    color: #eab676;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    font-size: 100px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    text-decoration-line: underline;
+    text-decoration-thickness: 20px;
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 80px;
+}
+
+button{
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #e6f5ff;
+}
+
+/* Aligns the div to the center */
+#buttons{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+body{
+    background-color: #e6f5ff;
+}
+
+
+.row{
+    
+    display: flex;
+    justify-content: center ;
+    
+}
+
+.fooditem{
+    width: 700px;
+    height: 250px;
+    margin-bottom: 80px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+
+.picturediv{
+    width: fit-content;
+    float: left;
+}
+
+.picture{
+    width: 250px;
+}
+
+.descriptor{
+    float: right;
+    width: 420px;
+}
+
+h3{
+    float: left;
+    font-size: 38px;
+    margin: auto;
+    color: black;
+}
+
+h4{
+    float: right;
+    margin: auto;
+    font-size: 38px;
+}
+
+p{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
